@@ -13,7 +13,8 @@ function formatCurrency(amount, currencyCode) {
     for (let i = n - 4; i >= 0; i--) {
       count++;
       realstring += real[i];
-      if (count === 2 && i !== 0) {git
+      if (count === 2 && i !== 0) {
+        git;
         realstring += ",";
         count = 0;
       }
